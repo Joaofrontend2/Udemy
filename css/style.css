@@ -1,0 +1,233 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "lato";
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+body #main-banner {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("/img/office.jpg");
+  height: 85vh;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+body .nav-container {
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  min-width: 100%;
+  padding: 1.5rem 2rem;
+  background-color: #000;
+  z-index: 10;
+}
+body .nav-container .brand {
+  color: #FFF;
+  font-size: 2rem;
+  transition: 0.3s;
+}
+body .nav-container .brand:hover {
+  color: #FF5200;
+}
+body .nav-container .nav-container-navbar {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+body .nav-container li {
+  margin: 5px 10px;
+}
+body .nav-container li a {
+  color: #FFF;
+  text-transform: uppercase;
+  transition: 0.3s;
+}
+body .nav-container li a:hover {
+  color: #FF5200;
+}
+body .nav-container .fas.fa-bars {
+  font-size: 2rem;
+  color: #FFF;
+  display: none;
+}
+body .btn {
+  padding: 0.6rem 1rem;
+  border: 1px solid #FFF;
+  text-transform: uppercase;
+  border-radius: 5px;
+  transition: 0.3s;
+  color: #FFF;
+}
+body .btn:hover {
+  border-color: #FF5200;
+}
+body .enter {
+  background-color: #FF5200;
+  color: #FFF;
+  padding: 0.6rem 1rem;
+  border: 1px solid #FF5200;
+  text-transform: uppercase;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+body .enter:hover {
+  background-color: transparent;
+  border-color: #FF5200;
+}
+body .all-services {
+  display: flex;
+  justify-content: center;
+}
+body .all-services .btn-rounded {
+  background-color: #FF5200;
+  margin-top: 1rem;
+  border-radius: 2rem;
+  padding: 1rem 1.5rem;
+}
+body .all-services .btn-rounded:hover {
+  background-color: transparent;
+  border-color: #FF5200;
+  color: #FF5200;
+  font-weight: 700;
+}
+body #title-container {
+  color: #FFF;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+body #title-container h1 {
+  font-size: 4rem;
+  color: #FFF;
+  font-weight: 800;
+  text-shadow: 3px 2px #000;
+}
+body #title-container h2 {
+  font-size: 3rem;
+  color: #FFF;
+  font-weight: 800;
+  text-shadow: 3px 2px #000;
+}
+body #title-container .btn-rounded {
+  background-color: #FF5200;
+  margin-top: 1rem;
+  border-radius: 2rem;
+  padding: 1rem 2rem;
+}
+body #title-container .btn-rounded:hover {
+  background-color: transparent;
+  border-color: #FF5200;
+  color: #FF5200;
+  transition: 0.3s;
+  font-weight: 700;
+}
+body .services-cards-container {
+  text-align: center;
+  padding: 2rem;
+  margin-bottom: 2rem;
+}
+body h2 {
+  font-size: 4rem;
+  color: #000;
+  font-weight: 500;
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 50px;
+}
+body h2:hover {
+  cursor: pointer;
+  transition: 0.4 ease-in;
+  opacity: 0.8;
+}
+body .services-cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 2rem;
+}
+body .services-card {
+  width: 30%;
+  margin: 1%;
+  padding: 2rem;
+  border: 1px solid #FF5200;
+  transition: 0.3s;
+}
+body .services-card:hover {
+  border: transparent;
+  box-shadow: 0 1px 10px rgb(110, 110, 110);
+  cursor: pointer;
+}
+body i {
+  color: #FF5200;
+  font-size: 3rem;
+  display: block;
+  margin-top: 1rem;
+  margin-bottom: 1.5 rem;
+  cursor: pointer;
+  transition: 0.5s;
+}
+body i:hover {
+  color: red;
+}
+body p {
+  color: #8B8E94;
+  font-weight: 800;
+  text-align: justify;
+  opacity: 0.8;
+}
+body section .container .card {
+  margin: 10px 0 100px;
+}
+body section .container .card-header {
+  text-align: center;
+  background-color: #FF5200;
+}
+body section .container .card-header span {
+  font-size: 3rem;
+  color: #000;
+  opacity: 0.8;
+  font-weight: 600;
+  text-align: center;
+  text-transform: uppercase;
+}
+body section .container .card-body {
+  background-color: #000;
+  color: #FF5200;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+body section .container .card-body .card-title {
+  font-size: 1.3rem;
+  font-weight: 600;
+  text-align: center;
+  text-transform: uppercase;
+}
+body section .container .card-body .card-text {
+  color: #FF5200;
+}
+body section .container .card-body .btn-rounded-card {
+  background-color: #FF5200;
+  border: #000;
+  margin-top: 1rem;
+  border-radius: 1rem;
+  padding: 0.5rem 2rem;
+}
+body section .container .card-body .btn-rounded-card:hover {
+  background-color: transparent;
+  color: #FF5200;
+  transition: 0.3s;
+  font-weight: 700;
+}/*# sourceMappingURL=style.css.map */
